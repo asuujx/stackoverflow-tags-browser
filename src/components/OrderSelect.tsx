@@ -22,7 +22,7 @@ export default function OrderSelect({ onOrderSelect }: OrderSelectProps) {
          <SelectTrigger className="w-32">
             <SelectValue placeholder="Order" />
          </SelectTrigger>
-         <SelectContent className="bg-white">
+         <SelectContent>
             <SelectGroup>
                <SelectLabel>Order</SelectLabel>
                <SelectItem value="desc">Descending</SelectItem>

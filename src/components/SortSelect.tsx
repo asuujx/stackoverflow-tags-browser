@@ -22,7 +22,7 @@ export default function SortSelect({ onSortSelect }: SortSelectProps) {
          <SelectTrigger className="w-32">
             <SelectValue placeholder="Sort" />
          </SelectTrigger>
-         <SelectContent className="bg-white">
+         <SelectContent>
             <SelectGroup>
                <SelectLabel>Sort</SelectLabel>
                <SelectItem value="popular">Popular</SelectItem>

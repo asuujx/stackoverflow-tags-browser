@@ -22,7 +22,7 @@ export default function ItemsSelect({ onItemsSelect }: ItemsSelectProps) {
          <SelectTrigger className="w-32">
             <SelectValue placeholder="Amount" />
          </SelectTrigger>
-         <SelectContent className="bg-white">
+         <SelectContent>
             <SelectGroup>
                <SelectLabel>Amount</SelectLabel>
                <SelectItem value="25" className="cursor-pointer">
