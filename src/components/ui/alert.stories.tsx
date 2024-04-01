@@ -11,7 +11,7 @@ const meta: Meta<typeof Alert> = {
       docs: {
          description: {
             component:
-               "The alert component displays an informational message to users.",
+               "This component displays an informational message to users.",
          },
       },
    },

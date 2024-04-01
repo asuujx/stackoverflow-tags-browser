@@ -10,7 +10,7 @@ const meta: Meta<typeof Button> = {
       docs: {
          description: {
             component:
-               "The Button component is used to trigger an action or event when clicked.",
+               "This component is used to trigger an action or event when clicked.",
          },
       },
       layout: "centered",
