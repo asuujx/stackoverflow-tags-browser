@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import ErrorAlert from "@/components/ErrorAlert/ErrorAlert";
+import ErrorAlert from "./ErrorAlert";
 
 const meta: Meta<typeof ErrorAlert> = {
-   title: "Components/Alert",
+   title: "Components/Alert/ErrorAlert",
    component: ErrorAlert,
    parameters: {
       layout: "centered",
       docs: {
          description: {
-            component: "This component displays an error message.",
+            component:
+               "The alert component takes an error message and displays it together with AlertCircle icon.",
          },
-      
       },
    },
    tags: ["autodocs"],
@@ -22,8 +22,7 @@ type Story = StoryObj<typeof ErrorAlert>;
 
 export const Default: Story = {
    args: {
-      message: "Error: Something went wrong",
+      message: "Something went wrong!",
    },
    render: (args) => <ErrorAlert {...args} />,
 };
-Default.storyName = "ErrorAlert";
