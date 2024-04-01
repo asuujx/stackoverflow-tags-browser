@@ -3,14 +3,14 @@ import type { Meta, StoryObj } from "@storybook/react";
 import ErrorAlert from "./ErrorAlert";
 
 const meta: Meta<typeof ErrorAlert> = {
-   title: "Components/Alert/ErrorAlert",
+   title: "My Components/ErrorAlert",
    component: ErrorAlert,
    parameters: {
       layout: "centered",
       docs: {
          description: {
             component:
-               "The alert component takes an error message and displays it together with AlertCircle icon.",
+               "This component takes an error message and displays it together with AlertCircle icon.",
          },
       },
    },
