@@ -2,13 +2,13 @@ import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 import { StackExchangeResponse, Tag } from "../types";
-import ErrorAlert from "./components/ErrorAlert";
-import ItemsSelect from "./components/ItemsSelect";
-import { ModeToggle } from "./components/ModeToggle";
-import OrderSelect from "./components/OrderSelect";
-import SortSelect from "./components/SortSelect";
-import TagCard from "./components/TagCard";
-import { TagsPagination } from "./components/TagsPagination";
+import { ModeToggle } from "./components/Darkmode/ModeToggle";
+import ErrorAlert from "./components/ErrorAlert/ErrorAlert";
+import ItemsSelect from "./components/ItemsSelect/ItemsSelect";
+import OrderSelect from "./components/OrderSelect/OrderSelect";
+import SortSelect from "./components/SortSelect/SortSelect";
+import TagCard from "./components/TagCard/TagCard";
+import { TagsPagination } from "./components/TagsPagination/TagsPagination";
 
 const fetchTags = async (
    page = 1,
