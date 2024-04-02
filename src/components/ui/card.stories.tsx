@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ThemeProvider } from "../Darkmode/ThemeProvider";
 
 const meta: Meta<typeof Card> = {
    title: "shadcn/Card",
