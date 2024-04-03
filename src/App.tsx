@@ -33,10 +33,6 @@ export default function App() {
    const [sort, setSort] = useState("popular");
    const [order, setOrder] = useState("desc");
 
-   //  console.log("Page: " + page);
-   //  console.log("PageSize: " + pageSize);
-   //  console.log("Sort: " + sort);
-
    const { isLoading, isError, error, data, isFetching, isPlaceholderData } =
       useQuery<StackExchangeResponse>({
          queryKey: ["tags", { page, pageSize, sort, order }],
