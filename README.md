@@ -113,8 +113,8 @@
 <!-- CONTACT -->
 ## Contact
 
-   Gmail - balon.piotr@gmail.com
-   Linkedin - [/in/balonpiotr](https://www.linkedin.com/in/balonpiotr/)
+   * Gmail - balon.piotr@gmail.com
+   * Linkedin - [/in/balonpiotr](https://www.linkedin.com/in/balonpiotr/)
 
    Project Link: [https://github.com/asuujx/stackoverflow-tags-browser](https://github.com/asuujx/stackoverflow-tags-browser)
 
