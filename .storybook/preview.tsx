@@ -32,6 +32,11 @@ const preview: Preview = {
             date: /Date$/i,
          },
       },
+      options: {
+         storySort: {
+            order: ["Introduction", "Colors", "Radius", "My Components", "shadcn"],
+         },
+      },
    },
 };
 
